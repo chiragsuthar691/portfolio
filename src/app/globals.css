@@ -80,7 +80,7 @@ body {
   display: block;
   width: 0;
   height: 2px;
-  background: #84cc16;
+  background-color: #84cc16;
   transition: width 0.3s;
 }
 

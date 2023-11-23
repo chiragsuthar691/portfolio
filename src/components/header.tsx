@@ -25,11 +25,10 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            className={`items-center justify-between ${
-              show ? "block" : "hidden"
-            } w-full md:flex md:w-auto md:order-1`}
+            className={`items-center justify-between  ${show ? "block" : "hidden"
+              } w-full md:flex md:w-auto md:order-1`}
           >
-            <ul className="nav-links flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
+            <ul className="nav-links flex flex-col p-4 dark:bg-slate-950 bg-slate-50 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
               <li>
                 <Link
                   href="#aboutme"
@@ -68,12 +67,10 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
-              {/* <li>
-              </li> */}
+              <li className="hover:after:hidden xl:ml-5 md:ml-5">
+                <ThemeSwitcher />
+              </li>
             </ul>
-            <div className="ml-5">
-              <ThemeSwitcher />
-            </div>
           </div>
         </div>
       </nav>
