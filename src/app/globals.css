@@ -80,7 +80,7 @@ body {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #84cc16;
+  background: #84cc16;
   transition: width 0.3s;
 }
 
@@ -153,12 +153,33 @@ body {
 }
 
 @media (max-width: 767px) {
+  .dark ul.nav-links {
+    background-color: #020617;
+  }
+  .light ul.nav-links {
+    background-color: #f8fafc;
+  }
   .e-card {
     width: 90%;
   }
 }
 
+@media (max-width: 640px) {
+  .dark ul.nav-links {
+    background-color: #020617;
+  }
+  .light ul.nav-links {
+    background-color: #f8fafc;
+  }
+}
+
 @media (max-width: 575px) {
+  .dark ul.nav-links {
+    background-color: #020617;
+  }
+  .light ul.nav-links {
+    background-color: #f8fafc;
+  }
   .p-title {
     margin-top: 7rem;
   }
@@ -177,6 +198,16 @@ body {
 }
 
 @media (max-width: 480px) {
+  .dark ul.nav-links {
+    background-color: #020617;
+  }
+  .light ul.nav-links {
+    background-color: #f8fafc;
+  }
+  .owner {
+    display: flex;
+    flex-direction: column;
+  }
 }
 body::-webkit-scrollbar {
   width: 4px;

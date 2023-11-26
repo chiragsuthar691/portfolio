@@ -28,7 +28,7 @@ const Navbar = () => {
             className={`items-center justify-between  ${show ? "block" : "hidden"
               } w-full md:flex md:w-auto md:order-1`}
           >
-            <ul className="nav-links flex flex-col p-4 dark:bg-transparent sm:dark:bg-slate-950 sm:bg-slate-50 dark:text-slate-50 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
+            <ul className="nav-links flex flex-col p-4 dark:bg-transparent  dark:text-slate-50 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0">
               <li>
                 <Link
                   href="#aboutme"

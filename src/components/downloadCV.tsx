@@ -6,7 +6,7 @@ const DownloadCV = () => {
     <>
       <section className="p-5 h-56 flex flex-col justify-center items-center">
         <div>
-          <h1 className="text-5xl font-bold m-2">Checkout my CV</h1>
+          <h1 className="text-5xl font-bold m-2">Download CV</h1>
         </div>
         <div className="flex flex-col items-center">
           <p className="text-center flex">
